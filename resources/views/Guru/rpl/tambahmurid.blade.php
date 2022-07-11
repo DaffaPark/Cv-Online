@@ -54,6 +54,13 @@
   </div>
 
   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Angkatan Tahun Ke-</label>
+    <input type="text" name="angkatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+
+  
+  <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Tempat Tanggal Lahir</label>
     <input type="text" name="ttl" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
@@ -109,6 +116,15 @@
     <label for="exampleInputEmail1" class="form-label">organisasi</label>
     <input type="text" name="organisasi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Status</label>
+    <select class="form-select" name="status" aria-label="Default select example">
+  <option selected>Pilih Jurusan</option>
+  <option value="murid">Murid</option>
+  <option value="alumni">Alumni</option>
+</select>   
+  </div>
+
 
 
 
