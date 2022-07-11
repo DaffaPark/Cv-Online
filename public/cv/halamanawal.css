@@ -1,0 +1,35 @@
+.navbar .navbar-text {
+    color:white;
+    font-size:18;
+  }
+
+  .row{
+  	margin:5rem;
+  }
+  .container .col-lg-4 {
+    margin-bottom:2rem;
+    text-align: center;
+  }
+  .container h2 {
+    font-weight: 400;
+  }
+ .container .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .featurette-divider {
+    margin:5rem ;
+    margin-left: 10px; 
+  }
+
+  .featurette-divider .col-md-6{
+  	margin-left:50px; 
+  }
+
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+   margin-left: 20px;
+    letter-spacing: -.05rem;
+  }
