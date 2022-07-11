@@ -37,6 +37,18 @@
                                 {{ trans('cruds.user.fields.email_helper') }}
                             </p>
                         </div>
+                        <div class="form-group {{ $errors->has('email') ? 'has-error' : '' }}">
+                            <label for="nisnipd">{{ trans('cruds.user.fields.nisnipd') }}*</label>
+                            <input type="nisnipd" id="nisnipd" name="nisnipd" class="form-control" value="{{ old('nisnipd', isset($user) ? $user->nisnipd : '') }}" required>
+                            @if($errors->has('nisnipd'))
+                                <p class="help-block">
+                                    {{ $errors->first('nisnipd') }}
+                                </p>
+                            @endif
+                            <p class="helper-block">
+                                {{ trans('cruds.user.fields.nisnipd_helper') }}
+                            </p>
+                        </div>
                         <div class="form-group {{ $errors->has('password') ? 'has-error' : '' }}">
                             <label for="password">{{ trans('cruds.user.fields.password') }}</label>
                             <input type="password" id="password" name="password" class="form-control" required>
