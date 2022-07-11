@@ -6,7 +6,7 @@
                     <i class="bi bi-speedometer2" class="pull-right-container">
 
                     </i>
-                    {{ trans('global.dashboard') }}
+                    <span>{{ trans('global.dashboard') }}</span>
                 </a>
             </li>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -95,7 +95,7 @@
                     <i class="bi bi-power">
 
                     </i>
-                    {{ trans('global.logout') }}
+                    <span>{{ trans('global.logout') }}</span>
                 </a>
             </li>
             

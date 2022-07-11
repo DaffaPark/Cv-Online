@@ -72,8 +72,18 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => '16',
                 'title' => 'user_access',
             ],
+            [
+                'id'    => '17',
+                'title' => 'Akses_RPL',
+            ],
+            [
+                'id'    => '18',
+                'title' => 'Akses_Alumni',
+            ],
         ];
 
         Permission::insert($permissions);
     }
 }
+
+
