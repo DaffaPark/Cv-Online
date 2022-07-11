@@ -9,12 +9,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Tambah Siswa</h1>
+            <h1 class="m-0">Buat CV</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
-              <li class="breadcrumb-item active">Tambah Siswa</li>
+              <li class="breadcrumb-item active">Buat CV</li>
             </ol>
           </div><!-- /.col -->
         
@@ -86,16 +86,32 @@
     <label for="exampleInputEmail1" class="form-label">Status</label>
     <select class="form-select" name="status" aria-label="Default select example">
   <option selected>Status Anda Saat Ini</option>
+  <option value="wirausaha">Wirausaha</option>
   <option value="kerja">kerja</option>
   <option value="kuliah">Kuliah</option>
+  
 </select>   
   </div>
 
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Pengalaman Bekerja</label>
-    <input type="text" name="pengalamankerja" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" name="pengalamankerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Apakah pekerjaan anda sesuai dengan jurusan kompentesi?</label>
+    <input type="text" name="sesuai" placeholder="Ya atau Tidak..." class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Jabatan Yang Telah Diraih</label>
+    <input type="text" name="jabatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Berapa pendaptan dari pekerjaan anda?</label>
+    <input type="text" name="pendapatan" placeholder="Misal 1jt Keatas..."  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

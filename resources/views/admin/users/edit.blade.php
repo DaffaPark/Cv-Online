@@ -47,7 +47,7 @@
                                 </p>
                             @endif
                             <p class="helper-block">
-                                {{ trans('cruds.user.fields.password_helper') }}
+                                {{ trans('cruds.user.fields.nisnipd_helper') }}
                             </p>
                         </div>
                         <div class="form-group {{ $errors->has('password') ? 'has-error' : '' }}">

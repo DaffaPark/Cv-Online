@@ -36,7 +36,7 @@
                                         {{ trans('cruds.user.fields.email') }}
                                     </th>
                                     <th>
-                                        {{ trans('cruds.user.fields.email_verified_at') }}
+                                        {{ trans('cruds.user.fields.nisnipd') }}
                                     </th>
                                     <th>
                                         {{ trans('cruds.user.fields.approved') }}
@@ -65,7 +65,7 @@
                                             {{ $user->email ?? '' }}
                                         </td>
                                         <td>
-                                            {{ $user->email_verified_at ?? '' }}
+                                            {{ $user->nisnipd ?? '' }}
                                         </td>
                                         <td>
                                             {{ $user->approved ? trans('global.yes') : trans('global.no') }}

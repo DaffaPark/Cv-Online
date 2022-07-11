@@ -32,19 +32,15 @@
                     <div class="col-md-10">
                         <div class="profile-head">
                                     <h5>
-                                        Profil Murid RPL
+                                        Data Profil Alumni
                                     </h5>
-                                    <h6>
-                                        Web Developer and Designer
-                                    </h6>
+                                    
                                    
                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Tentang</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Lainnya</a>
-                                </li>
+                    
                             </ul>
                         </div>
                     </div>
@@ -124,83 +120,7 @@
                                         </div>
                                         <br>
                         </div>
-                           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Nilai</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="nilai" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->nilai }}">
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Akademik</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <textarea name="akademik" id="akademik" class="form-control" cols="15" rows="3">{{ $alumni->akademik }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Sikap Selama Disekolah</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                 <textarea name="sikap" id="sikap" class="form-control" cols="15" rows="3">{{ $alumni->sikap }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Keahlian Yang Dipelajari</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <textarea name="keahlian" id="keahlian" class="form-control" cols="15" rows="3">{{ $alumni->keahlian }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Pengalaman Yang Didapat</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                               <textarea name="pengalaman" id="pengalaman" class="form-control" cols="15" rows="3">{{ $alumni->pengalaman }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Perkembangan Selama Bersekolah</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <textarea name="perkembangan" id="perkembangan" class="form-control" cols="15" rows="3">{{ $alumni->perkembangan }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Prestasi Yang Diperoleh</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <textarea name="prestasi" id="prestasi" class="form-control" cols="15" rows="3">{{ $alumni->prestasi }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Pengalaman Berorganisasi</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <textarea name="organisasi" id="organisasi" class="form-control" cols="15" rows="3">{{ $alumni->organisasi }}</textarea>
-                                            </div>
-                                        </div>
-                                        <br>
-                                        <br>
-                                    </div>
-                                </div>
+                           <br>
                             </div>
                         </div>
                     </div>

@@ -114,6 +114,24 @@
                                             </div>
                                         </div>
                                         <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Status</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="status" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->status }}">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Angkatan Tahun Ke-</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="angkatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->angkatan }}">
+                                            </div>
+                                        </div>
+                                        <br>
                         </div>
                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <br>

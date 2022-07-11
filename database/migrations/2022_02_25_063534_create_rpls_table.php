@@ -32,7 +32,7 @@ class CreateRplsTable extends Migration
             $table->string('perkembangan');
             $table->string('prestasi');
             $table->string('organisasi');
-            $table->string('status');
+            $table->enum('status',['murid','alumni']);
             $table->timestamps();
         });
     }
