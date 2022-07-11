@@ -40,7 +40,7 @@
                                 </tr>
                                 <tr>
                                     <th>
-                                        NISN & NIS
+                                    {{ trans('cruds.user.fields.nisnipd') }}
                                     </th>
                                     <td>
                                         {{ $user->nisnipd }}
