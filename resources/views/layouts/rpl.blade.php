@@ -48,11 +48,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a><strong id="global-username">Halo,{{ Auth::user()->name }}</strong></a>
       </li>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();" class="btn btn-outline-dark"><i class="bi bi-power"></i></a>
-      </li>
-    </ul>
   </nav>
 
     <!-- Right navbar links -->
