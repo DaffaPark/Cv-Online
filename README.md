@@ -6,7 +6,7 @@
 
 &nbsp;
 * [![Laravel](https://laravel.com/img/logotype.min.svg)](https://laravel.com)
-* [![Bootstrap](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/120px-Bootstrap_logo.svg.png)][https://getbootstrap.com/]
+* [![Bootstrap](https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png)][Bootstrap-url]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
