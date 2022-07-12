@@ -26,6 +26,7 @@ class CreateAlumnisTable extends Migration
             $table->string('email');
             $table->enum('status',['wirausaha','kerja','kuliah']);
             $table->string('pengalamankerja')->nullable();
+            $table->string('alamatbekerja')->nullable();
             $table->string('sesuai')->nullable();
             $table->string('jabatan')->nullable();
             $table->string('pendapatan')->nullable();
