@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://codesandbox.io">
-    <img src="{{asset('image/halamanawal/Slide01.jpg')}}" height="300px">
+    <img src="https://eprakerin.smkn2-bjm.sch.id/storage/slide2.jpg" height="300px">
   </a>
 </p>
 
