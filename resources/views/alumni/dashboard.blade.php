@@ -28,6 +28,7 @@
     <tr>
       <th scope="col">Nama</th>
       <th scope="col">E-mail</th>
+      <th scope="col">Aksi</th>
     </tr>
   </thead>
   <tbody>
@@ -36,11 +37,19 @@
     @endphp
 @foreach ($alumnis as $alumni)
           @if ($alumni->user->id == Auth::user()->id)
-      <td>{{ $alumni->name }}</td>
-      <td>{{ $alumni->user->email }}</td>
-                  <a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a>
-                  <a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a>
-                  <a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a>
+          <tr>
+              <td>{{ $alumni->name }}</td>
+              <td>{{ $alumni->user->email }}</td>
+              <td>
+              <a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a>
+              </td>
+              <td>
+              <a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a>
+              </td>
+              <td>
+              <a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a>
+              </td>
+          </tr>
                   </div>
                 </div>
               </div>
