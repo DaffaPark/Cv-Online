@@ -37,7 +37,7 @@
     <label for="exampleFormControlSelect1">jeniskelamin</label>
     <select class="form-control"  name="jeniskelamin"  id="exampleFormControlSelect1">
     <option value="laki-laki">laki-laki</option>
-  <option value="kuliah">Perempuan</option>
+  <option value="perempuan">Perempuan</option>
     </select>
   </div>
 

@@ -20,16 +20,24 @@
     </div>
     <!-- /.content-header -->
 
+
+    <div class="card-body">
+<table id="status" class="table table-striped table-bordered">
+
+  <thead>
+    <tr>
+      <th scope="col">Nama</th>
+      <th scope="col">E-mail</th>
+    </tr>
+  </thead>
+  <tbody>
+    @php
+      $no = 1;
+    @endphp
 @foreach ($alumnis as $alumni)
           @if ($alumni->user->id == Auth::user()->id)
-          <section class="content"></section> 
-          <div class="container-fluid text-center">
-            <div class="row"> 
-              <div class="col-lg-3">
-                <div class="small-box bg-secondary rounded">
-                  <div class="inner">
-                  <h1 class="text-2xl">{{ $alumni->name }}</h1>
-                  <p>Oleh {{ $alumni->user->email }}</p>
+      <td>{{ $alumni->name }}</td>
+      <td>{{ $alumni->user->email }}</td>
                   <a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a>
                   <a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a>
                   <a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a>

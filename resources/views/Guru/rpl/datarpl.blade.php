@@ -1,4 +1,4 @@
-@extends('layouts.rpl')
+@extends('layouts.alumni')
 
 @section('content')
 
