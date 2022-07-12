@@ -5,7 +5,7 @@
 </p>
 
 &nbsp;
-* [![Laravel][https://laravel.com/img/logotype.min.svg]][https://laravel.com/]
+* [![Laravel](https://laravel.com/img/logotype.min.svg)](https://laravel.com)
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 
