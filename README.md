@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://codesandbox.io">
-    <img src="https://eprakerin.smkn2-bjm.sch.id/storage/slide2.jpg" height="300px">
+  <a href="https://eprakerin.smkn2-bjm.sch.id/">
+    <img src="https://eprakerin.smkn2-bjm.sch.id/storage/slide1.jpeg" height="300px">
   </a>
 </p>
 
