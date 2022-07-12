@@ -35,23 +35,23 @@
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Kelas</label>
-    <select class="form-select" name="kelas" aria-label="Default select example">
-  <option selected>Pilih Kelas</option>
-  <option value="X">X</option>
-  <option value="XI">XI</option>
-  <option value="XII">XII</option>
-</select>   
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Kelas</label>
+    <select class="form-control"  name="kelas"  id="exampleFormControlSelect1">
+    <option value="X">X</option>
+    <option value="XI">XI</option>
+    <option value="XII">XII</option>
+    </select>
   </div>
 
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Jurusan</label>
-    <select class="form-select" name="jurusan" aria-label="Default select example">
-  <option selected>Pilih Jurusan</option>
-  <option value="RPL">RPL</option>
-</select>   
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Jurusan</label>
+    <select class="form-control"  name="jurusan"  id="exampleFormControlSelect1">
+    <option value="RPL">RPL</option>
+    </select>
   </div>
+
+  
 
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Angkatan Tahun Ke-</label>
@@ -116,13 +116,12 @@
     <label for="exampleInputEmail1" class="form-label">organisasi</label>
     <input type="text" name="organisasi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Status</label>
-    <select class="form-select" name="status" aria-label="Default select example">
-  <option selected>Pilih Jurusan</option>
-  <option value="murid">Murid</option>
-  <option value="alumni">Alumni</option>
-</select>   
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Status</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Murid</option>
+      <option>Alumni</option>
+    </select>
   </div>
 
 
