@@ -109,16 +109,18 @@
                                         </div>
                                         <br>
                                         <div class="row">
-                                         <div class="form-group">
+                                         <div class="col-md-6">
                                             <label for="exampleFormControlSelect1">Status</label>
+                                        </div>
+                                        <div class="col-md-6">
                                             <select class="form-control"  name="status"  value="{{ $alumni->status }}" id="exampleFormControlSelect1">
                                             <option value="wirausaha">Wirausaha</option>
-                                        <option value="kerja">kerja</option>
-                                        <option value="kuliah">Kuliah</option>
+                                            <option value="kerja">kerja</option>
+                                            <option value="kuliah">Kuliah</option>
                                             </select>
                                         </div>
-                                        </div>
-                                        <br>
+                                    </div>
+                                <br>
                         </div>
                            <br>
                             </div>
