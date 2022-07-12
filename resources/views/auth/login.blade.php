@@ -23,7 +23,12 @@
 
 <!-- Page Loader -->
 @extends('layouts._loader')
+<<<<<<< HEAD
                 @if(session()->has('message'))
+=======
+
+@if(session()->has('message'))
+>>>>>>> b8a4fe1de57a4ffb9b887f76212ecb1c831b8f47
             <p class="alert alert-info text-center">
                 {{ session()->get('message') }}
             </p>
@@ -35,6 +40,10 @@
             <div class="login-img">
                     @include('auth.svg.login-svg')
                 </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> b8a4fe1de57a4ffb9b887f76212ecb1c831b8f47
                 <form class="form-auth-small my-auto" action="{{route('login')}}" method="post">
                     <img src="{{asset('cv/cv3.png')}}" alt="Smart School Logo" class="img-fluid">
                     {{ csrf_field() }}

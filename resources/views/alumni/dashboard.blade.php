@@ -29,6 +29,7 @@
     <th scope="col">ID</th>
       <th scope="col">Nama</th>
       <th scope="col">E-mail</th>
+<<<<<<< HEAD
       <th scope="col">No Telp</th>
       <th scope="col">Jurusan</th>
       <th scope="col">Angkatan</th>
@@ -36,6 +37,9 @@
       <th></th>
       <th></th>
       <th></th>
+=======
+      <th scope="col">Aksi</th>
+>>>>>>> b8a4fe1de57a4ffb9b887f76212ecb1c831b8f47
     </tr>
   </thead>
   <tbody>
@@ -44,6 +48,7 @@
     @endphp
 @foreach ($alumnis as $alumni)
           @if ($alumni->user->id == Auth::user()->id)
+<<<<<<< HEAD
           <td>{{ $alumni->user_id }}</td>
       <td>{{ $alumni->name }}</td>
       <td>{{ $alumni->user->email }}</td>
@@ -56,6 +61,21 @@
       <td><a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a></td>
       <td><a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a></td>
       </div>
+=======
+          <tr>
+              <td>{{ $alumni->name }}</td>
+              <td>{{ $alumni->user->email }}</td>
+              <td>
+              <a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a>
+              </td>
+              <td>
+              <a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a>
+              </td>
+              <td>
+              <a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a>
+              </td>
+          </tr>
+>>>>>>> b8a4fe1de57a4ffb9b887f76212ecb1c831b8f47
                   </div>
                 </div>
               </div>
