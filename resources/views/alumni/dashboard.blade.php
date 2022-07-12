@@ -22,10 +22,11 @@
 
 @foreach ($alumnis as $alumni)
           @if ($alumni->user->id == Auth::user()->id)
-          <div class="container-fluid">
+          <section class="content"></section> 
+          <div class="container-fluid text-center">
             <div class="row"> 
               <div class="col-lg-3">
-                <div class="small-box bg-secondary">
+                <div class="small-box bg-secondary rounded">
                   <div class="inner">
                   <h1 class="text-2xl">{{ $alumni->name }}</h1>
                   <p>Oleh {{ $alumni->user->email }}</p>
@@ -35,8 +36,8 @@
                   </div>
                 </div>
               </div>
-            </div>  
-         </div>
+            </div>
+            </div>
          @endif
 
         @endforeach
