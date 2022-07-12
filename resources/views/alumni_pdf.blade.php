@@ -95,8 +95,12 @@ Pengalaman Kerja</span>
     <td style="width:438.95pt; border-left:2.25pt dotted #bfbfbf; padding-left:27.68pt; vertical-align:top">
     <h3>
     <span style="-aw-sdt-content:placeholder; -aw-sdt-tag:'Enter month of school 1:'; -aw-sdt-title:'Enter month of school 1:'">
-    <span class="status">Pengalaman:</span>
-        <span class="Pengalaman_kerja">{{$alumni->pengalamankerja}}</span>
+    <div class="contact-info">
+    <span class="pengalaman">Pengalaman:</span>
+    <span class="Pengalaman_kerja">{{$alumni->pengalamankerja}}</span>
+</div>
+    <span class="alamatbekerja">Tempat {{$alumni->status}}:</span>
+     <span class="alamat_kerja">{{$alumni->alamatbekerja}}</span>
 </table>
 </body>
 </html>

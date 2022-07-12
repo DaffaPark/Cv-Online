@@ -48,10 +48,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a><strong id="global-username">Halo,{{ Auth::user()->name }}</strong></a>
       </li>
-<<<<<<< HEAD
-=======
-    
->>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
   </nav>
 
     <!-- Right navbar links -->
@@ -105,29 +101,19 @@
               </p>
             </a>
            <li class="nav-item">
-           <a href="/murid" class="nav-link">
-              <i class="bi bi-layout-text-sidebar-reverse"></i>
-              <p>
-                 Data Siswa
-              <i class="fas fa-angle-left right"></i>
-              <span class="right badge badge-danger"></span>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="/muridrpl" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="bi bi-book-fill"></i>
                   <p>Data Murid RPL</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/tambahmurid" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="bi bi-file-earmark-plus"></i>
                   <p>Tambah Murid</p>
                 </a>
               </li>
             </li>
-            </ul>
           </li>
         </ul>
       </nav>
