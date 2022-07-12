@@ -34,7 +34,7 @@
 <div class="wrapper">
 
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  <div class=" preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="{{ asset('template/dist/img/Logo.png') }}" alt="AdminLTELogo" height="60" width="60">
   </div>
 
@@ -48,11 +48,6 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a><strong id="global-username">Halo,{{ Auth::user()->name }}</strong></a>
       </li>
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();" class="btn btn-outline-dark"><i class="bi bi-power"></i></a>
-      </li>
-    </ul>
   </nav>
 
     <!-- Right navbar links -->

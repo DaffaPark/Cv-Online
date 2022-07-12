@@ -22,19 +22,19 @@
 <body class="theme-cyan font-montserrat light_version">
 <!-- Page Loader -->
 @extends('layouts._loader')
-
+                @if(session()->has('message'))
+            <p class="alert alert-info text-center">
+                {{ session()->get('message') }}
+            </p>
+        @endif
 <div class="auth-main2 particles_js">
     <div class="auth_div vivify fadeInTop">
         <div class="card">
             <div class="body justify-content-around">
-                <div class="login-img">
+            <div class="login-img">
                     @include('auth.svg.login-svg')
                 </div>
-                @if(session()->has('message'))
-            <p class="alert alert-info">
-                {{ session()->get('message') }}
-            </p>
-        @endif
+            
                 <form class="form-auth-small my-auto" action="{{route('login')}}" method="post">
                     <img src="{{asset('cv/cv3.png')}}" alt="Smart School Logo" class="img-fluid">
                     {{ csrf_field() }}
