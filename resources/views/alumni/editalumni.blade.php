@@ -46,9 +46,7 @@
                     </div>
                     <div class="col-md-2">
                         <button type="submit" class="btn btn-primary">Submit</button>
-                        <br>
-                        <br>
-                        <a href="/nilai/{{ $alumni->id }}" class="btn btn-primary">Hitung Nilai</a>
+                        
 
                     </div>
                 </div>
@@ -111,12 +109,14 @@
                                         </div>
                                         <br>
                                         <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Status</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="text" name="status" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->status }}">
-                                            </div>
+                                         <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Status</label>
+                                            <select class="form-control"  name="status"  value="{{ $alumni->status }}" id="exampleFormControlSelect1">
+                                            <option value="wirausaha">Wirausaha</option>
+                                        <option value="kerja">kerja</option>
+                                        <option value="kuliah">Kuliah</option>
+                                            </select>
+                                        </div>
                                         </div>
                                         <br>
                         </div>

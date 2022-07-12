@@ -48,6 +48,10 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a><strong id="global-username">Halo,{{ Auth::user()->name }}</strong></a>
       </li>
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
   </nav>
 
     <!-- Right navbar links -->

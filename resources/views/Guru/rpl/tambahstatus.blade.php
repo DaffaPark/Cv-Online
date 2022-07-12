@@ -139,13 +139,12 @@
                                             <div class="col-md-6">
                                                 <label>Kelas</label>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="form-group">
                                                 <select class="form-select" name="kelas" aria-label="Default select example">
                                                   <option selected>{{ $data->kelas }}</option>
                                                   <option value="X">X</option>
                                                   <option value="XI">XI</option>
                                                   <option value="XII">XII</option>
-                                                  <option value="XIII">XIII</option>
                                                 </select>   
                                             </div>
                                         </div>

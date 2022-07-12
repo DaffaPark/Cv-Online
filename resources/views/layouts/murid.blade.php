@@ -34,7 +34,7 @@
 <div class="wrapper">
 
   <!-- Preloader -->
-  <div class=" preloader flex-column justify-content-center align-items-center">
+  <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="{{ asset('template/dist/img/Logo.png') }}" alt="AdminLTELogo" height="60" width="60">
   </div>
 
@@ -48,39 +48,16 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a><strong id="global-username">Halo,{{ Auth::user()->name }}</strong></a>
       </li>
-<<<<<<< HEAD
-=======
-    
->>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
-  </nav>
-
-    <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <!-- Navbar Search -->
-        <div class="navbar-search-block">
-          <form class="form-inline">
-              <div class="input-group-append">
-                <button class="btn btn-navbar" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </li>    
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="/logout" type="button" class="btn btn-outline-dark"><i class="bi bi-power"></i></a>
+      </li>
+    </ul>
   </nav>
-  <!-- /.navbar -->
-
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    
-
     <!-- Sidebar -->
-    <div class="sidebar">
+    < <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
      <div id="left-sidebar" class="sidebar">
     <div class="navbar-brand">
@@ -90,13 +67,12 @@
         <button type="button" class="btn-toggle-offcanvas btn btn-sm float-right"><i class="lnr lnr-menu icon-close"></i></button>
     </div>
 
-      <!-- SidebarSearch Form -->
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item">
+               <li class="nav-item">
              <a href="/home" class="nav-link">
               <i class="bi bi-speedometer2"></i>
               <p>
@@ -104,31 +80,6 @@
               <span class="right badge badge-danger"></span>
               </p>
             </a>
-           <li class="nav-item">
-           <a href="#" class="nav-link">
-              <i class="bi bi-layout-text-sidebar-reverse"></i>
-              <p>
-                 Data Alumni
-              <i class="fas fa-angle-left right"></i>
-              <span class="right badge badge-danger"></span>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-            <li class="nav-item">
-                <a href="/dashboard" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Data Alumni</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/create" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Buat CV</p>
-                </a>
-              </li>
-            </li>
-            </ul>
-          </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -139,7 +90,7 @@
   <!-- Content Wrapper. Contains page content -->
   @yield('content')
   <!-- /.content-wrapper -->
- 
+
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

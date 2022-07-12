@@ -72,6 +72,24 @@
                     </ul>
             </li>
             @endcan
+            @can('Akses_Murid')
+            <li class="treeview">
+                    <a href="#">
+                        <i class="fa-fw fas fa-users">
+
+                        </i>
+                        <span>Murid</span>
+                        <span class="pull-right-container"><i class="fa fa-fw fa-angle-left pull-right"></i></span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="nav-item">
+                            <a href="/searchrpl" class="nav-link">
+                              <p class="far fa-circle nav-icon"> Dashboard</p>
+                            </a>
+                        </li>
+                    </ul>
+            </li>
+            @endcan
             @can('Akses_Alumni')
             <li class="treeview">
                     <a href="#">

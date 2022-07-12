@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAlumnisTable extends Migration
+class CreateFilmsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,24 +13,26 @@ class CreateAlumnisTable extends Migration
      */
     public function up()
     {
-        Schema::create('alumnis', function (Blueprint $table) {
+        Schema::create('films', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
+            $table->string('nis');
             $table->string('name');
-            $table->enum('jeniskelamin',['laki-laki','perempuan']);
+            $table->enum('kelas',['X','XI','XII','XIII']);
             $table->enum('jurusan',['RPL','TKJ','MM','DI','FILM','ANIMASI','PEKSOS','KI','TV']);
             $table->string('angkatan');
             $table->string('ttl');
             $table->string('alamat');
             $table->bigInteger('notelp');
             $table->string('email');
-            $table->enum('status',['wirausaha','kerja','kuliah']);
-            $table->string('pengalamankerja')->nullable();
-            $table->string('alamatbekerja')->nullable();
-            $table->string('sesuai')->nullable();
-            $table->string('jabatan')->nullable();
-            $table->string('pendapatan')->nullable();
-            $table->timestamps();
+            $table->string('nilai');
+            $table->string('akademik');
+            $table->string('sikap');
+            $table->string('keahlian');
+            $table->string('pengalaman');
+            $table->string('perkembangan');
+            $table->string('prestasi');
+            $table->string('organisasi');
+            $table->enum('status',['murid','alumni']);
         });
     }
 
@@ -41,6 +43,6 @@ class CreateAlumnisTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('alumnis');
+        Schema::dropIfExists('films');
     }
 }

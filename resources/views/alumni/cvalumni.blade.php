@@ -32,20 +32,19 @@
     <label for="exampleInputEmail1" class="form-label">Nama</label>
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">jeniskelamin</label>
-    <select class="form-select" name="jeniskelamin" aria-label="Default select example">
-  <option selected>Pilih jeniskelamin</option>
-  <option value="laki-laki">laki-laki</option>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">jeniskelamin</label>
+    <select class="form-control"  name="jeniskelamin"  id="exampleFormControlSelect1">
+    <option value="laki-laki">laki-laki</option>
   <option value="kuliah">Perempuan</option>
-</select>   
+    </select>
   </div>
 
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Jurusan</label>
-    <select class="form-select" name="jurusan" aria-label="Default select example">
-  <option selected>Pilih Jurusan</option>
-  <option value="RPL">RPL</option>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Jurusan</label>
+    <select class="form-control"  name="jurusan"  id="exampleFormControlSelect1">
+    <option value="RPL">RPL</option>
   <option value="TKJ">TKJ</option>
   <option value="MM">Multimedia</option>
   <option value="DI">Design Interior</option>
@@ -54,8 +53,9 @@
   <option value="PEKSOS">PEKSOS</option>
   <option value="KI">Kimia Industri</option>
   <option value="TV">TV & Broadcast</option>
-</select>   
+    </select>
   </div>
+
    <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Angkatan Tahun...</label>
     <input type="text" name="angkatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -82,20 +82,23 @@
     <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Status</label>
-    <select class="form-select" name="status" aria-label="Default select example">
-  <option selected>Status Anda Saat Ini</option>
-  <option value="wirausaha">Wirausaha</option>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Status</label>
+    <select class="form-control"  name="status"  id="exampleFormControlSelect1">
+    <option value="wirausaha">Wirausaha</option>
   <option value="kerja">kerja</option>
   <option value="kuliah">Kuliah</option>
-  
-</select>   
+    </select>
   </div>
 
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Pengalaman Bekerja</label>
     <input type="text" name="pengalamankerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Alamat/Tempat Bekerja</label>
+    <input type="text" name="alamatbekerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
   <div class="mb-3">

@@ -20,13 +20,23 @@
 </head>
 
 <body class="theme-cyan font-montserrat light_version">
+
 <!-- Page Loader -->
 @extends('layouts._loader')
+<<<<<<< HEAD
                 @if(session()->has('message'))
+=======
+
+@if(session()->has('message'))
+>>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
             <p class="alert alert-info text-center">
                 {{ session()->get('message') }}
             </p>
         @endif
+<<<<<<< HEAD
+=======
+
+>>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
 <div class="auth-main2 particles_js">
     <div class="auth_div vivify fadeInTop">
         <div class="card">
@@ -34,7 +44,11 @@
             <div class="login-img">
                     @include('auth.svg.login-svg')
                 </div>
+<<<<<<< HEAD
             
+=======
+                
+>>>>>>> 81ed59e5c0fcab2b8b740b6a34243d0ce9e0faf0
                 <form class="form-auth-small my-auto" action="{{route('login')}}" method="post">
                     <img src="{{asset('cv/cv3.png')}}" alt="Smart School Logo" class="img-fluid">
                     {{ csrf_field() }}
