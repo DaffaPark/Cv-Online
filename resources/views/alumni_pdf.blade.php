@@ -82,7 +82,7 @@ Status </span>
     <h3>
     <span style="-aw-sdt-content:placeholder; -aw-sdt-tag:'Enter month of school 1:'; -aw-sdt-title:'Enter month of school 1:'">
     <span class="status">Status:</span>
-        <span class="status_">{{$alumni->status}}</span>
+    <span class="status_">{{$alumni->status}}</span>
 </table>
 <div style="-aw-sdt-content:placeholder; -aw-sdt-tag:'Akademik:'; -aw-sdt-title:'Akademik:'">
     <h1>
@@ -99,8 +99,11 @@ Pengalaman Kerja</span>
     <span class="pengalaman">Pengalaman:</span>
     <span class="Pengalaman_kerja">{{$alumni->pengalamankerja}}</span>
 </div>
-    <span class="alamatbekerja">Tempat {{$alumni->status}}:</span>
-     <span class="alamat_kerja">{{$alumni->alamatbekerja}}</span>
+<div class="contact-info">
+    <span class="alamatkerja">Alamat {{$alumni->status}}:</span>
+    <span class="alamatkerja">{{$alumni->alamatkerja}}</span>
+</div>
+    
 </table>
 </body>
 </html>

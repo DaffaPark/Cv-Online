@@ -92,17 +92,17 @@
   </div>
 
   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Alamat/Tempat Bekerja/Kuliah/Wirausaha</label>
+    <input type="text" name="alamatkerja" placeholder="apabila belum bekerja/kuliah/wirausaha silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Pengalaman Bekerja</label>
     <input type="text" name="pengalamankerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Alamat/Tempat Bekerja</label>
-    <input type="text" name="alamatbekerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Apakah pekerjaan anda sesuai dengan jurusan kompentesi?</label>
+    <label for="exampleInputEmail1" class="form-label">Apakah pekerjaan/kuliah anda sesuai dengan jurusan kompentesi?</label>
     <input type="text" name="sesuai" placeholder="Ya atau Tidak..." class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 

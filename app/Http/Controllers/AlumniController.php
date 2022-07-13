@@ -17,18 +17,24 @@ class AlumniController extends Controller
    public function store(Request $request)
    {
  
-       $alumni = new Alumni;
-       $alumni->user_id = Auth::user()->id;
-       $alumni->name = $request->name;
-       $alumni->jeniskelamin = $request->jeniskelamin;
-       $alumni->jurusan = $request->jurusan;
-       $alumni->angkatan = $request->angkatan;
-       $alumni->ttl = $request->ttl;
-       $alumni->alamat = $request->alamat;
-       $alumni->notelp = $request->notelp;
-       $alumni->email = $request->email;
-       $alumni->pengalamankerja = $request->pengalamankerja;
-       $alumni->status = $request->status;
+      
+$alumni = new Alumni;
+$alumni->user_id = Auth::user()->id;
+$alumni->name = $request->name;
+$alumni->jeniskelamin = $request->jeniskelamin;
+$alumni->jurusan = $request->jurusan;
+$alumni->angkatan = $request->angkatan;
+$alumni->ttl = $request->ttl;
+$alumni->alamat = $request->alamat;
+$alumni->notelp = $request->notelp;
+$alumni->email = $request->email;
+$alumni->status = $request->status;
+$alumni->pengalamankerja = $request->pengalamankerja;
+$alumni->alamatkerja = $request->alamatkerja;
+$alumni->sesuai = $request->sesuai;
+$alumni->jabatan = $request->jabatan;
+$alumni->pendapatan = $request->pendapatan;
+
        
    
        $alumni->save();

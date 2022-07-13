@@ -32,7 +32,7 @@
                                 <div class="col-sm-3">
                                     <label for="" class="form-label">Name</label>
                                     <input name="name" type="text" class="form-control" placeholder="Name" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">  
-                                </div>
+                                </div>              
                                 <div class="col-sm-1">
                                     <label for="" class="form-label">Kelas</label>
                                     <select name="kelas" class="form-select">
@@ -102,7 +102,7 @@
       <td>{{ $row->sikap }}</td>
       <td>{{ $row->keahlian }}</td>
       <td>
-        <a href="/tambahstatus/{{ $row->id }}" class="btn btn-primary ">Status</a>
+        <a href="/tambahstatus/{{ $row->id }}" class="btn btn-dark ">Status</a>
       </td>
       <td>
         <a href="/hapusrpl/{{ $row->id }}" class="btn btn-danger">Hapus</a>

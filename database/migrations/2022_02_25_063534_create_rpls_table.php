@@ -17,6 +17,7 @@ class CreateRplsTable extends Migration
             $table->id();
             $table->string('nis');
             $table->string('name');
+            $table->enum('jeniskelamin',['laki-laki','perempuan']);
             $table->enum('kelas',['X','XI','XII','XIII']);
             $table->enum('jurusan',['RPL','TKJ','MM','DI','FILM','ANIMASI','PEKSOS','KI','TV']);
             $table->string('angkatan');

@@ -121,6 +121,14 @@
                                         </div>
                                     </div>
                                 <br>
+                                <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Alamat Bekerja/Kuliah/Wirausaha</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="alamatkerja" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->alamatkerja }}">
+                                            </div>
+                                        </div>
                         </div>
                            <br>
                             </div>
