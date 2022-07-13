@@ -140,7 +140,7 @@
                                                 <label>Kelas</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <select class="form-control" name="kelas" aria-label="Default select example">
+                                                <select class="form-controlj" name="kelas" aria-label="Default select example">
                                                   <option selected>{{ $data->kelas }}</option>
                                                   <option value="X">X</option>
                                                   <option value="XI">XI</option>
