@@ -1,4 +1,4 @@
-@extends('layouts.alumni')
+@extends('layouts.rpl')
 
 @section('content')
 
@@ -102,10 +102,10 @@
       <td>{{ $row->sikap }}</td>
       <td>{{ $row->keahlian }}</td>
       <td>
-        <a href="/tambahstatus/{{ $row->id }}" class="btn btn-outline-primary">Status</a>
+        <a href="/tambahstatus/{{ $row->id }}" class="btn btn-primary ">Status</a>
       </td>
       <td>
-        <a href="/hapusrpl/{{ $row->id }}" class="btn btn-outline-danger">Hapus</a>
+        <a href="/hapusrpl/{{ $row->id }}" class="btn btn-danger">Hapus</a>
       </td>
     </tr>
 
