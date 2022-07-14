@@ -125,7 +125,7 @@
                                         <br>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Angkatan Tahun Ke-</label>
+                                                <label>Angkatan Tahun Ke</label>
                                             </div>
                                             <div class="col-md-6">
                                                 <input type="text" name="angkatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->angkatan }}">
@@ -139,8 +139,8 @@
                                             <div class="col-md-6">
                                                 <label>Kelas</label>
                                             </div>
-                                            <div class="form-group">
-                                                <select class="form-select" name="kelas" aria-label="Default select example">
+                                            <div class="col-md-6">
+                                                <select class="form-controlj" name="kelas" aria-label="Default select example">
                                                   <option selected>{{ $data->kelas }}</option>
                                                   <option value="X">X</option>
                                                   <option value="XI">XI</option>

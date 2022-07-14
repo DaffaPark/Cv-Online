@@ -3,6 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RplController;
 use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\CvController;
+use App\Http\Controllers\NilaiController;
 use App\Http\Controllers\MuridController;
 use App\Models\Alumni;
 use App\User;

@@ -101,30 +101,19 @@
               <span class="right badge badge-danger"></span>
               </p>
             </a>
-           <li class="nav-item">
-           <a href="#" class="nav-link">
-              <i class="bi bi-layout-text-sidebar-reverse"></i>
-              <p>
-                 Data Alumni
-              <i class="fas fa-angle-left right"></i>
-              <span class="right badge badge-danger"></span>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
             <li class="nav-item">
                 <a href="/dashboard" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                  <i class="bi bi-book-fill"></i>
                   <p>Data Alumni</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/create" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
+                <i class="bi bi-file-earmark-plus"></i>
                   <p>Buat CV</p>
                 </a>
               </li>
             </li>
-            </ul>
           </li>
         </ul>
       </nav>

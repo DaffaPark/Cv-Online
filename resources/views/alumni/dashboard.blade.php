@@ -20,15 +20,20 @@
     </div>
     <!-- /.content-header -->
 
-
     <div class="card-body">
 <table id="status" class="table table-striped table-bordered">
-
   <thead>
     <tr>
+    <th scope="col">ID</th>
       <th scope="col">Nama</th>
       <th scope="col">E-mail</th>
-      <th scope="col">Aksi</th>
+      <th scope="col">No Telp</th>
+      <th scope="col">Jurusan</th>
+      <th scope="col">Angkatan</th>
+      <th scope="col">Status</th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -36,26 +41,26 @@
       $no = 1;
     @endphp
 @foreach ($alumnis as $alumni)
-          @if ($alumni->user->id == Auth::user()->id)
-          <tr>
-              <td>{{ $alumni->name }}</td>
-              <td>{{ $alumni->user->email }}</td>
-              <td>
-              <a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a>
-              </td>
-              <td>
-              <a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a>
-              </td>
-              <td>
-              <a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a>
-              </td>
-          </tr>
+      <tr>  
+      <td>{{ $alumni->id }}</td>
+      <td>{{ $alumni->name }}</td>
+      <td>{{ $alumni->user->email }}</td>
+      <td>{{ $alumni->notelp }}</td>
+      <td>{{ $alumni->jurusan }}</td>
+      <td>{{ $alumni->angkatan}}</td>
+      <td>{{ $alumni->status}}</td>
+      <td><a href="/edit/{{ $alumni->id }}" class="btn btn-dark">Edit</a></td>
+      <td><a href="/export/{{ $alumni->id }}" class="btn btn-dark">Cetak</a></td>
+      <td><a href="/hapus/{{ $alumni->id }}" class="btn btn-danger">Hapus</a></td>
+      </tr>
                   </div>
                 </div>
               </div>
             </div>
             </div>
-         @endif
+</div>
+</div>
+</div>
 
         @endforeach
 @endsection

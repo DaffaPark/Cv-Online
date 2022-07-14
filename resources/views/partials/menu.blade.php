@@ -60,13 +60,13 @@
                         <i class="fa-fw fas fa-users">
 
                         </i>
-                        <span>Data Murid RPL</span>
+                        <span>Murid RPL</span>
                         <span class="pull-right-container"><i class="fa fa-fw fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu">
                         <li class="nav-item">
                             <a href="/muridrpl" class="nav-link">
-                              <p class="far fa-circle nav-icon"> Data Murid RPL</p>
+                              <p class="far fa-circle nav-icon">Dashboard</p>
                             </a>
                         </li>
                     </ul>

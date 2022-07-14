@@ -23,8 +23,8 @@
 
 <!-- Page Loader -->
 @extends('layouts._loader')
-
-@if(session()->has('message'))
+                @if(session()->has('message'))
+                
             <p class="alert alert-info text-center">
                 {{ session()->get('message') }}
             </p>

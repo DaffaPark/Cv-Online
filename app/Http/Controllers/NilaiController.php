@@ -8,6 +8,6 @@ class NilaiController extends Controller
 {
     public function nilai($id){
          $data = Rpl::find($id);
-        return view('rpl.nilai',compact('data'));
+        return view('guru.rpl.nilai',compact('data'));
     }
 }
