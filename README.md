@@ -24,7 +24,7 @@ Thanks goes to these wonderful people
 <table>
   <tr>
     <td align="center">
-    <a href="http://ivesvh.com">
+    <a href="https://www.instagram.com/daffapark_/">
     <img src="https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png/revision/latest/top-crop/width/360/height/360?cb=20220525164426" width="100px;" alt="Ives van Hoorne"/>
     <br />
     <sub>
@@ -36,7 +36,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3ACompuIves">
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=CompuIves"></td>
     <td align="center">
-    <a href="http://donavon.com">
+    <a href="https://www.instagram.com/surya.dhl/">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmstFp6jtFIppkzGYGCSnsVeUWrIAHIJnZyg&usqp=CAU" width="100px;" alt="Donavon West">
     <br />
     <sub>
@@ -47,7 +47,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=donavon" title="Code">💻</a>
     </td>
     <td align="center">
-    <a href="http://www.jeffallen.io/">
+    <a href="https://www.instagram.com/fazri70/">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPpd2dKUULlTHDgoufs2wFrK7KQlYsPp5WFw&usqp=CAU" width="100px;" alt="Jeff Allen"/>
     <br />
     <sub>
@@ -69,7 +69,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=bengummer" title="Code">💻</a>
     </td>
     <td align="center">
-    <a href="http://twitter.com/faceyspacey">
+    <a href="https://www.instagram.com/vviviaaaa/?hl=id">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHA2wU8Uo2Sv26iLP3kcWpLBTnkRwzlzjZQ&usqp=CAU" width="100px;" alt="James Gillmore"/><br />
     <sub>
     <b>Selvia</b>
@@ -79,7 +79,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=faceyspacey" title="Code">💻</a> <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Afaceyspacey" title="Bug reports">🐛</a>
     </td>
     <td align="center">
-    <a href="https://github.com/viankakrisna">
+    <a href="https://instagram.com/novalds_?igshid=YmMyMTA2M2Y=">
     <img src="https://www.meme-arsenal.com/memes/dead400ff8cf8392baa440de22fb15cf.jpg" width="100px;" alt="Ade Viankakrisna Fadlil"/>
     <br />
     <sub>
