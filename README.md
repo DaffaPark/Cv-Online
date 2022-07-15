@@ -58,7 +58,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=vueu" title="Code">💻</a>
     </td>
     <td align="center">
-    <a href="https://github.com/bengummer">
+    <a href="https://www.instagram.com/sarahaulia.z/">
     <img src="https://cdn1-production-images-kly.akamaized.net/g7U0DsHebmKK6go4L_jhNwMNRD8=/1200x1200/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/869253/original/042739000_1430826088-Cover.jpg" width="100px;" alt="Ben Gummer"/>
     <br />
     <sub>
@@ -69,7 +69,7 @@ Thanks goes to these wonderful people
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=bengummer" title="Code">💻</a>
     </td>
     <td align="center">
-    <a href="https://www.instagram.com/sarahaulia.z/">
+    <a href="http://twitter.com/faceyspacey">
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBHA2wU8Uo2Sv26iLP3kcWpLBTnkRwzlzjZQ&usqp=CAU" width="100px;" alt="James Gillmore"/><br />
     <sub>
     <b>Selvia</b>
