@@ -6,7 +6,7 @@
 
 &nbsp;
 * [![Laravel](https://laravel.com/img/logotype.min.svg)](https://laravel.com)
-* [![Bootstrap](https://www.nicepng.com/png/detail/142-1424485_bootstrap-logo-png-transparent-bootstrap-logo-black.png)](https://getbootstrap.com)
+* [![Bootstrap](https://www.digitalentropy.co.uk/wp-content/uploads/2021/08/bootstrap.png)](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
