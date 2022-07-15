@@ -32,7 +32,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="#question-CompuIves" title="Answering Questions">Hey Hey Not Bad</a>
+    <a href="#question-CompuIves" title="Answering Questions">Hey Hey Not Bad😎</a>
     <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3ACompuIves">
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=CompuIves"></td>
     <td align="center">
