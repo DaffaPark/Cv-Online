@@ -30,7 +30,7 @@ Thanks goes to these wonderful people
     <td align="center"><a href="http://twitter.com/faceyspacey"><img src="https://cdn.wallpapersafari.com/49/97/UqCh8c.jpg" width="100px;" alt="James Gillmore"/><br /><sub><b>Selvia</b></sub></a><br /><a href="https://github.com/codesandbox/codesandbox-client/commits?author=faceyspacey" title="Code">💻</a> <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Afaceyspacey" title="Bug reports">🐛</a></td>
     <td align="center">
     <a href="https://github.com/viankakrisna">
-    <img src="https://www.meme-arsenal.com/memes/dead400ff8cf8392baa440de22fb15cf.jpg" width="100px;" alt="Ade Viankakrisna Fadlil"/>
+    <img src="http://telagainfo.com/wp-content/uploads/2022/06/foto-ultramen-buncit2-259x300.png" width="100px;" alt="Ade Viankakrisna Fadlil"/>
     <br />
     <sub>
     <b>Muhammad Naufal</b>
