@@ -15,7 +15,7 @@ class UsersApiController extends Controller
 {
     public function index()
     {
-        abort_if(Gate::denies('user_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('user_access'), Response::HTTP_FORBIDDEN, '403 Kamu Tidak Punya Akses');
 
         return new UserResource(User::with(['roles'])->get());
     }
@@ -32,7 +32,7 @@ class UsersApiController extends Controller
 
     public function show(User $user)
     {
-        abort_if(Gate::denies('user_show'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('user_show'), Response::HTTP_FORBIDDEN, '403 Kamu Tidak Punya Akses');
 
         return new UserResource($user->load(['roles']));
     }
@@ -49,7 +49,7 @@ class UsersApiController extends Controller
 
     public function destroy(User $user)
     {
-        abort_if(Gate::denies('user_delete'), Response::HTTP_FORBIDDEN, '403 Forbidden');
+        abort_if(Gate::denies('user_delete'), Response::HTTP_FORBIDDEN, '403 Kamu Tidak Punya Akses');
 
         $user->delete();
 
