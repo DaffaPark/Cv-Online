@@ -25,32 +25,41 @@
               <div class="card-body">
                 <form action="/insertalumni" method="POST" enctype="multipart/form-data">
                  @csrf
-   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nis</label>
-    <input type="text" name="nis" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-  <div class="mb-3">
+                 
+                 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nama</label>
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">jeniskelamin</label>
+    <select class="form-control"  name="jeniskelamin"  id="exampleFormControlSelect1">
+    <option value="laki-laki">laki-laki</option>
+  <option value="perempuan">Perempuan</option>
+    </select>
   </div>
 
   <div class="form-group">
     <label for="exampleFormControlSelect1">Jurusan</label>
     <select class="form-control"  name="jurusan"  id="exampleFormControlSelect1">
     <option value="RPL">RPL</option>
+  <option value="TKJ">TKJ</option>
+  <option value="MM">Multimedia</option>
+  <option value="DI">Design Interior</option>
+  <option value="FILM">FILM</option>
+  <option value="ANIMASI">ANIMASI</option>
+  <option value="PEKSOS">PEKSOS</option>
+  <option value="KI">Kimia Industri</option>
+  <option value="TV">TV & Broadcast</option>
     </select>
   </div>
 
-  
-
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Angkatan Tahun Ke-</label>
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Angkatan Tahun...</label>
     <input type="text" name="angkatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
 
-  
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Tempat Tanggal Lahir</label>
     <input type="text" name="ttl" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -71,52 +80,39 @@
     <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
-    <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nilai</label>
-    <input type="number" name="nilai" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">akademik</label>
-    <input type="text" name="akademik" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">sikap</label>
-    <input type="text" name="sikap" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Keahlian</label>
-    <input type="text" name="keahlian" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">pengalaman</label>
-    <input type="text" name="pengalaman" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-<div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">perkembangan</label>
-    <input type="text" name="perkembangan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">prestasi</label>
-    <input type="text" name="prestasi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">organisasi</label>
-    <input type="text" name="organisasi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
   <div class="form-group">
     <label for="exampleFormControlSelect1">Status</label>
-    <select class="form-control" id="exampleFormControlSelect1">
-      <option value="Murid">Murid</option>
-      <option value="Alumni">Alumni</option>
+    <select class="form-control"  name="status"  id="exampleFormControlSelect1">
+    <option value="wirausaha">Wirausaha</option>
+  <option value="kerja">kerja</option>
+  <option value="kuliah">Kuliah</option>
     </select>
   </div>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Alamat/Tempat Bekerja/Kuliah/Wirausaha</label>
+    <input type="text" name="alamatkerja" placeholder="apabila belum bekerja/kuliah/wirausaha silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Pengalaman Bekerja</label>
+    <input type="text" name="pengalamankerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Apakah pekerjaan/kuliah anda sesuai dengan jurusan kompentesi?</label>
+    <input type="text" name="sesuai" placeholder="Ya atau Tidak..." class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Jabatan Yang Telah Diraih</label>
+    <input type="text" name="jabatan" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Berapa pendaptan dari pekerjaan anda?</label>
+    <input type="text" name="pendapatan" placeholder="Misal 1jt Keatas..."  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
