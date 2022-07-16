@@ -39,6 +39,6 @@ class AlumniExport implements WithMapping , FromQuery
     }
     public function query()
     {
-        return DataAlumni::query()->where('status', 'like', '%' . $this->kelas . '%');
+        return DataAlumni::query()->where('status', 'like', '%' . $this->status . '%');
     }
 }
