@@ -78,7 +78,7 @@
                         <i class="fa-fw fas fa-users">
 
                         </i>
-                        <span>Murid</span>
+                        <span>Data Murid</span>
                         <span class="pull-right-container"><i class="fa fa-fw fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu">
