@@ -25,7 +25,7 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center">
     <a href="https://www.instagram.com/daffapark_/">
-    <img src="https://static.wikia.nocookie.net/mobile-legends/images/0/01/Hero071-portrait.png/revision/latest/top-crop/width/360/height/360?cb=20220525164426" width="100px;" alt="Ives van Hoorne"/>
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0d34884d-f39f-4448-b149-76fa1caaaea7/dej4qlx-7faaf6af-757f-4a0b-b05c-da0cadeb5654.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzBkMzQ4ODRkLWYzOWYtNDQ0OC1iMTQ5LTc2ZmExY2FhYWVhN1wvZGVqNHFseC03ZmFhZjZhZi03NTdmLTRhMGItYjA1Yy1kYTBjYWRlYjU2NTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.iJr4JnBE9C14b1hIUBl558g88WMOJMsGjTpIq0M72E4" width="100px;" alt="Ives van Hoorne"/>
     <br />
     <sub>
     <b>Daffa Maulana Ramadhan</b>
