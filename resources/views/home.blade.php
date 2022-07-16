@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12">
         	
-            //Rencana (AKAN DIBUAT HALAMAN POST UNTUK PENGUMUMAN ATAU HAL LAINNYA)
+            //Rencana (AKAN DIBUAT HALAMAN POST UNTUK PENGUMUMAN, INFO LOWONGAN KERJA ATAU HAL LAINNYA)
           
         </div>
     </div>
