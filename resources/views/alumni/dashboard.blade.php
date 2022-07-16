@@ -24,7 +24,6 @@
 <table id="status" class="table table-striped table-bordered">
   <thead>
     <tr>
-    <th scope="col">ID</th>
       <th scope="col">Nama</th>
       <th scope="col">E-mail</th>
       <th scope="col">No Telp</th>
@@ -40,9 +39,9 @@
     @php
       $no = 1;
     @endphp
-@foreach ($alumnis as $alumni)
+    @foreach ($alumnis as $alumni)
+          @if ($alumni->user->id == Auth::user()->id)
       <tr>  
-      <td>{{ $alumni->id }}</td>
       <td>{{ $alumni->name }}</td>
       <td>{{ $alumni->user->email }}</td>
       <td>{{ $alumni->notelp }}</td>
@@ -61,6 +60,8 @@
 </div>
 </div>
 </div>
+@endif
 
         @endforeach
 @endsection
+

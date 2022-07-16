@@ -3,13 +3,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RplController;
 use App\Http\Controllers\AlumniController;
 use App\Http\Controllers\CvController;
+use App\Http\Controllers\DataAlumniController;
 use App\Http\Controllers\NilaiController;
 use App\Http\Controllers\MuridController;
 use App\Models\Alumni;
 use App\User;
-
-
-
+use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,7 +16,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('login');
 });
-
+//admin
 Route::redirect('/home', '/admin');
 Auth::routes();
 
@@ -35,7 +34,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     Route::delete('users/destroy', 'UsersController@massDestroy')->name('users.massDestroy');
     Route::resource('users', 'UsersController');
 });
-
+//rpl
 Auth::routes();
 Route::get('/muridrpl',[RplController::class, 'index'])->name('muridrpl');
 Route::get('/filterrpl', [RplController::class, 'filterrpl']);
@@ -49,7 +48,20 @@ Route::get('/exportrpl',[RplController::class, 'exportrpl'])->name('exportrpl') 
 Route::get('/Importdatarpl',[RplController::class, 'Importdatarpl'])->name('Importdatarpl') ;
 Route::post('/importrpl',[RplController::class, 'importrpl'])->name('importrpl') ;
 Auth::routes();
-
+//alumni
+Auth::routes();
+Route::get('/muridalumni',[DataAlumniController::class, 'index'])->name('muridalumni');
+Route::get('/filteralumni', [DataAlumniController::class, 'filteralumni']);
+Route::get('/tambahalumni',[DataAlumniController::class, 'tambahalumni'])->name('tambahalumni') ;
+Route::post('/insertalumni',[DataAlumniController::class, 'insertalumni'])->name('insertalumni') ;
+Route::get('/statusalumni/{id}',[DataAlumniController::class, 'statusalumni'])->name('statusalumni') ;
+Route::post('/updatealumni/{id}',[DataAlumniController::class, 'updatealumni'])->name('updatealumni') ;
+Route::get('/hapusalumni/{id}',[DataAlumniController::class, 'hapusalumni'])->name('hapusalumni') ;
+Route::get('/exportalumni',[DataAlumniController::class, 'exportalumni'])->name('exportalumni') ;
+Route::get('/Importdataalumni',[DataAlumniController::class, 'Importdataalumni'])->name('Importdataalumni') ;
+Route::post('/importalumni',[DataAlumniController::class, 'importalumni'])->name('importalumni') ;
+Auth::routes();
+//murid
 Auth::routes();
 Route::get('/murid',[MuridController::class, 'index'])->name('murid');
 Route::get('/searchrpl',[MuridController::class, 'searchrpl'])->name('searchrpl');
@@ -81,7 +93,7 @@ Route::get('/findpeksos', [MuridController::class, 'findpeksos'])->name('findpek
 Route::get('/findanimasi', [MuridController::class, 'findanimasi'])->name('findanimasi');
 Route::get('/finddi', [MuridController::class, 'finddi'])->name('finddi');
 Auth::routes();
-
+//alumni yang sudah lulus
 Route::get('/dashboard', function () {
         $alumnis = Alumni::with('user')->get();
         return view('alumni.dashboard', ['alumnis' => $alumnis]);

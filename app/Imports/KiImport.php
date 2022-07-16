@@ -15,22 +15,25 @@ class KiImport implements ToModel
     public function model(array $row)
     {
         return new Ki([
-            'nis'=> $row[1],
-            'name'=> $row[2],
-            'kelas'=> $row[3],
-            'jurusan'=> $row[4],
-            'ttl'=> $row[5],
-            'alamat'=> $row[6],
-            'notelp'=> $row[7],
-            'email'=> $row[8],
-            'nilai'=> $row[9],
-            'akademik'=> $row[10],
-            'sikap'=> $row[11],
-            'keahlian'=> $row[12],
-            'pengalaman'=> $row[13],
-            'perkembangan'=> $row[14],
-            'prestasi'=> $row[15],
-            'organisasi'=> $row[16],
+            'nis'         => $row[0],
+            'name'        => $row[1],
+            'kelas'       => $row[2],
+            'jeniskelamin'=> $row[3],
+            'jurusan'     => $row[4],
+            'angkatan'    => $row[5],
+            'ttl'         => $row[6],
+            'alamat'      => $row[7],
+            'notelp'      => $row[8],
+            'email'       => $row[9],
+            'nilai'       => $row[10],
+            'akademik'    => $row[11],
+            'sikap'       => $row[12],
+            'keahlian'    => $row[13],
+            'pengalaman'  => $row[14],
+            'perkembangan'=> $row[15],
+            'prestasi'    => $row[16],
+            'organisasi'  => $row[17],
+            'status'      => $row[18]
         ]);
     }
 }

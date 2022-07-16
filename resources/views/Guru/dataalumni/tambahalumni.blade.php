@@ -1,4 +1,4 @@
-@extends('layouts.rpl')
+@extends('layouts.muridalumni')
 
 @section('content')
 
@@ -23,7 +23,7 @@
             <div class="col-8">
             <div class="card">
               <div class="card-body">
-                <form action="/insertdata" method="POST" enctype="multipart/form-data">
+                <form action="/insertalumni" method="POST" enctype="multipart/form-data">
                  @csrf
    <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nis</label>
@@ -33,23 +33,6 @@
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nama</label>
     <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-  </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">jenis Kelamin</label>
-    <select class="form-control"  name="jeniskelamin"  id="exampleFormControlSelect1">
-    <option value="laki-laki">laki-laki</option>
-    <option value="perempuan">Perempuan</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Kelas</label>
-    <select class="form-control"  name="kelas"  id="exampleFormControlSelect1">
-    <option value="X">X</option>
-    <option value="XI">XI</option>
-    <option value="XII">XII</option>
-    </select>
   </div>
 
   <div class="form-group">

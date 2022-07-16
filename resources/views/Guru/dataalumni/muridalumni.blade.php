@@ -1,4 +1,4 @@
-@extends('layouts.rpl')
+@extends('layouts.muridalumni')
 
 @section('content')
 
@@ -8,12 +8,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Data Siswa</h1>
+            <h1 class="m-0">Data Alumni</h1>
           </div><!-- /.col -->                              
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="/home">Home</a></li>
-              <li class="breadcrumb-item active">Data Murid</li>
+              <li class="breadcrumb-item active">Data Alumni</li>
             </ol>
           </div>
  
@@ -26,22 +26,13 @@
             </div>
           
             @endif
-            <form action="/filterrpl" method="get">
+            <form action="/filteralumni" method="get">
                             @csrf
                             <div class="row mb-2">
                                 <div class="col-sm-3">
                                     <label for="" class="form-label">Name</label>
                                     <input name="name" type="text" class="form-control" placeholder="Name" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">  
                                 </div>              
-                                <div class="col-sm-1">
-                                    <label for="" class="form-label">Kelas</label>
-                                    <select name="kelas" class="form-select">
-                                        <option value="X" selected="{{isset($_GET['kelas']) && $_GET['kelas'] == 'X'}}">X</option>
-                                        <option value="XI" selected="{{isset($_GET['kelas']) && $_GET['kelas'] == 'XI'}}">XI</option>
-                                        <option value="XII" selected="{{isset($_GET['kelas']) && $_GET['kelas'] == 'XII'}}">XII</option>
-                                        <option value="" selected="">-</option>
-                                    </select>
-                                </div>
                                 <div class="col-sm-1">
                                     <label for="" class="form-label">Jurusan</label>
                                     <select name="jurusan" class="form-select">
@@ -63,10 +54,10 @@
 
            
                                <div class="col-auto">
-                                  <a href="/exportrpl" class="btn btn-primary mt-4">Export Excel</a>
+                                  <a href="/exportalumni" class="btn btn-primary mt-4">Export Excel</a>
                                 </div>
                                 <div class="col-auto">
-                                  <a href="/Importdatarpl" class="btn btn-primary mt-4">Import Excel</a>
+                                  <a href="/Importdataalumni" class="btn btn-primary mt-4">Import Excel</a>
                                 </div>
 
 
@@ -79,7 +70,6 @@
       <th scope="col">ID</th>
       <th scope="col">NIS</th>
       <th scope="col">Nama</th>
-      <th scope="col">kelas</th>
       <th scope="col">Jurusan</th>  
       <th scope="col">Status</th>
       <th scope="col">Angkatan</th>    
@@ -91,20 +81,19 @@
       $no = 1;
     @endphp
 
-    @foreach($data as $index => $row)
+    @foreach($alumnis as $index => $row)
     <tr>
-      <th scope="row">{{ $index + $data->firstItem() }}</th>
+      <th scope="row">{{ $index + $alumnis->firstItem() }}</th>
       <td>{{ $row->nis }}</td>
       <td>{{ $row->name }}</td>
-      <td>{{ $row->kelas }}</td>
       <td>{{ $row->jurusan }}</td>
       <td>{{ $row->status }}</td>
       <td>{{ $row->angkatan }}</td>
       <td>
-        <a href="/tambahstatus/{{ $row->id }}" class="btn btn-dark ">Status</a>
+        <a href="/statusalumni/{{ $row->id }}" class="btn btn-dark ">Status</a>
       </td>
       <td>
-        <a href="/hapusrpl/{{ $row->id }}" class="btn btn-danger">Hapus</a>
+        <a href="/hapusalumni/{{ $row->id }}" class="btn btn-danger">Hapus</a>
       </td>
     </tr>
 
@@ -112,7 +101,7 @@
     
   </tbody>
 </table>
-{{ $data->links() }}
+{{ $alumnis->links() }}
 </div>
 </div>
 </div>

@@ -40,7 +40,7 @@
                         </div>
                         <div class="form-group {{ $errors->has('nisnipd') ? 'has-error' : '' }}">
                             <label for="nisnipd">NIS & NISN</label>
-                            <input type="text" id="nisnipd" name="nisnipd" class="form-control">
+                            <input type="text" id="nisnipd" name="nisnipd" class="form-control" value="{{ old('nisnipd', isset($user) ? $user->nisnipd : '') }}" required>
                             @if($errors->has('nisnipd'))
                                 <p class="help-block">
                                     {{ $errors->first('nisnipd') }}

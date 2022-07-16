@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRplsTable extends Migration
+class CreateDataAlumnisTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,10 @@ class CreateRplsTable extends Migration
      */
     public function up()
     {
-        Schema::create('rpls', function (Blueprint $table) {
+        Schema::create('data_alumnis', function (Blueprint $table) {
             $table->id();
             $table->string('nis');
             $table->string('name');
-            $table->enum('jeniskelamin',['laki-laki','perempuan']);
-            $table->enum('kelas',['X','XI','XII','XIII']);
             $table->enum('jurusan',['RPL','TKJ','MM','DI','FILM','ANIMASI','PEKSOS','KI','TV']);
             $table->string('angkatan');
             $table->string('ttl');
@@ -45,6 +43,6 @@ class CreateRplsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rpls');
+        Schema::dropIfExists('data_alumnis');
     }
 }
