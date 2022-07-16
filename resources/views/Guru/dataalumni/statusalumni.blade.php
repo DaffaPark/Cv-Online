@@ -127,20 +127,6 @@
                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                         <br>
                                         <div class="row">
-                                         <div class="col-md-6">
-                                            <label for="exampleFormControlSelect1">Kelas</label>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <select class="form-control"  name="kelas" id="exampleFormControlSelect1">
-                                            <option selected>{{ $alumnis->kelas }}</option>
-                                            <option value="X">X</option>
-                                            <option value="XI">XI</option>
-                                            <option value="XII">XII</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                <br>
-                                        <div class="row">
                                             <div class="col-md-6">
                                                 <label>Nilai</label>
                                             </div>

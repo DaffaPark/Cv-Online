@@ -37,23 +37,6 @@
   </div>
 
   <div class="form-group">
-    <label for="exampleFormControlSelect1">jenis Kelamin</label>
-    <select class="form-control"  name="jeniskelamin"  id="exampleFormControlSelect1">
-    <option value="laki-laki">laki-laki</option>
-    <option value="perempuan">Perempuan</option>
-    </select>
-  </div>
-
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Kelas</label>
-    <select class="form-control"  name="kelas"  id="exampleFormControlSelect1">
-    <option value="X">X</option>
-    <option value="XI">XI</option>
-    <option value="XII">XII</option>
-    </select>
-  </div>
-
-  <div class="form-group">
     <label for="exampleFormControlSelect1">Jurusan</label>
     <select class="form-control"  name="jurusan"  id="exampleFormControlSelect1">
     <option value="RPL">RPL</option>
