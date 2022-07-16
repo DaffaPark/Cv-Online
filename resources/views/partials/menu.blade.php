@@ -78,7 +78,7 @@
                         <i class="fa-fw fas fa-users">
 
                         </i>
-                        <span>Cari Murid</span>
+                        <span>Murid</span>
                         <span class="pull-right-container"><i class="fa fa-fw fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu">
