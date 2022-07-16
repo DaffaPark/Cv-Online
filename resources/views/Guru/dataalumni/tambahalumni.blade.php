@@ -128,7 +128,6 @@
   <div class="form-group">
     <label for="exampleFormControlSelect1">Status</label>
     <select class="form-control" id="exampleFormControlSelect1">
-      <option value="Murid">Murid</option>
       <option value="Alumni">Alumni</option>
     </select>
   </div>

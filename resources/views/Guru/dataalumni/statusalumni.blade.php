@@ -109,7 +109,6 @@
                                         </div>
                                         <div class="col-md-6">
                                             <select class="form-control"  name="status"  value="{{ $alumnis->status }}" id="exampleFormControlSelect1">
-                                            <option value="Murid">Murid</option>
                                             <option value="Alumni">Alumni</option>
                                             </select>
                                         </div>
