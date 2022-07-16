@@ -151,7 +151,7 @@
                                         <br>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Nilai</label>
+                                                <label>Nilai</label>aa
                                             </div>
                                             <div class="col-md-6">
                                                 <input type="text" name="nilai" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $data->nilai }}">
