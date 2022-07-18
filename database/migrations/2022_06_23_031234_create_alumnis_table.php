@@ -27,9 +27,9 @@ class CreateAlumnisTable extends Migration
             $table->enum('status',['wirausaha','kerja','kuliah']);
             $table->string('pengalamankerja')->nullable();
             $table->string('alamatkerja')->nullable();
-            $table->string('sesuai')->nullable();
+            $table->enum('sesuai',['iya','tidak'])->nullable();
             $table->string('jabatan')->nullable();
-            $table->string('pendapatan')->nullable();
+            $table->enum('pendapatan',['dibawah_1juta','diatas_1juta','diatas_2juta'])->nullable();
             $table->timestamps();
         });
     }
