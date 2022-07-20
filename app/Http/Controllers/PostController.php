@@ -29,7 +29,7 @@ class PostController extends Controller
             }
     
          
-            return redirect('/posts')->with('success','Post created successfully!');
+            return redirect('/posts')->with('Sukses','Post Berhasil Ditambahkan');
         }
     
 
@@ -63,14 +63,13 @@ class PostController extends Controller
           
         $post->update($input);
     
-        return redirect()->route('posts.index')
-                        ->with('success','Product updated successfully');
+        return redirect('/posts')->with('Sukses','Data Berhasil Diedit');
     }
     
 
     public function destroy(Post $post)
     {
         $post->delete();
-        return redirect('/home')->with('success','Post deleted successfully!');
+        return redirect('/posts')->with('success','Post deleted successfully!');
     }
 }

@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <div class="d-flex ">
-                    <img src="{{ asset('fotopost/'.$post->foto) }}" width="150px" class="rounded-circle" alt="Cinque Terre">
+                    <img src="{{ asset('fotopost/'.$post->foto) }}" width="150px" alt="Cinque Terre">
                     </div>
                     <h2 class="d-flex justify-content-center">{{$post->title}}</h2>
                     <br>
