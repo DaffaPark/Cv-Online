@@ -106,4 +106,20 @@ Route::get('/dashboard', function () {
     Route::get('/hapus/{id}', [AlumniController::class, 'hapus'])->name('hapus'); 
     Route::get('/export/{id}',[AlumniController::class, 'export'])->name('export') ;
 Auth::routes();
+
+//post
+Auth::routes();
+
+Route::get('/posts', [App\Http\Controllers\PostController::class, 'index'])->name('posts');
+Route::get('posts/create', [App\Http\Controllers\PostController::class, 'create']);
+Route::post('poststore', [App\Http\Controllers\PostController::class, 'store']);
+Route::get('posts/{post}/edit', [App\Http\Controllers\PostController::class, 'edit']);
+Route::get('posts/{post}', [App\Http\Controllers\PostController::class, 'show']);
+Route::put('posts/{post}', [App\Http\Controllers\PostController::class, 'update']);
+Route::delete('posts/{post}', [App\Http\Controllers\PostController::class, 'destroy']);
+
+Auth::routes();
+
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+

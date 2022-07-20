@@ -1,12 +1,11 @@
-@extends('layouts.admin')
+@extends('layouts.posts')
+
 @section('content')
-<div class="content">
-    <div class="row">
-        <div class="col-lg-12">
-        	
-        <div class="container">
+<div class="container">
     <div class="row justify-content-center">
     <div class="col-12">
+        <br>
+                <a href="posts/create" class="btn btn-primary mb-2">Create Post</a> 
                 <br>
                 <table class="table table-bordered">
                     <thead>
@@ -32,6 +31,8 @@
                             <a href="posts/{{$post->id}}/edit" class="btn btn-primary">Edit</a>
                             <form action="posts/{{$post->id}}" method="post" class="d-inline">
                                 {{ csrf_field() }}
+                                @method('DELETE')
+                                <button class="btn btn-danger" type="submit">Delete</button>
                             </form>
                             </td>
                         </tr>
@@ -41,11 +42,4 @@
             </div> 
     </div>
 </div>
-        </div>
-    </div>
-</div>
-@endsection
-@section('scripts')
-@parent
-
 @endsection

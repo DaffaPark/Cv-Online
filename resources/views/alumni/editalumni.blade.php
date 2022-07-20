@@ -129,8 +129,8 @@
                                                 <input type="text" name="alamatkerja" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->alamatkerja }}">
                                             </div>
                                         </div>
-                        </div>
-                           <br>
+                                    </div>
+                                <br>
                             </div>
                         </div>
                     </div>

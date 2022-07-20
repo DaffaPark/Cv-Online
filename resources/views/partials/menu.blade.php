@@ -126,6 +126,24 @@
                     </ul>
             </li>
             @endcan
+            @can('Akses_Post')
+            <li class="treeview">
+                    <a href="#">
+                        <i class="fa-fw fas fa-users">
+
+                        </i>
+                        <span>Post</span>
+                        <span class="pull-right-container"><i class="fa fa-fw fa-angle-left pull-right"></i></span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li class="nav-item">
+                            <a href="/posts" class="nav-link">
+                              <p class="far fa-circle nav-icon"> Dashboard</p>
+                            </a>
+                        </li>
+                    </ul>
+            </li>
+            @endcan
             <li class="treeview">
                 <a href="#" onclick="event.preventDefault(); document.getElementById('logoutform').submit();">
                     <i class="bi bi-power">
