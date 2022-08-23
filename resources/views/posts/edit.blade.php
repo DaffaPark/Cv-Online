@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     
-                    <form action="/posts/{{$post->id}}" method="post">
+                    <form action="/updateposts/{{$post->id}}" method="post">
                         @csrf
                         @method('PUT')
                         <div class="form-group">
@@ -28,9 +28,15 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="">Publish At</label>
-                            <input type="date" name="published_at" class="form-control" value="{{ date('Y-m-d', strtotime($post->published_at)) }}">
-                        </div>
+                <strong>Post Image:</strong>
+                 <input type="file" name="image" class="form-control" placeholder="Post Title">
+                @error('image')
+                  <div class="alert alert-danger mt-1 mb-1">{{ $message }}</div>
+               @enderror
+            </div>
+            <div class="form-group">
+              <img src="{{ asset('fotopost/'.$post->foto) }}" height="200" width="200" alt="" />
+            </div>
                         
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>

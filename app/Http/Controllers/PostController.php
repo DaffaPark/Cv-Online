@@ -52,11 +52,10 @@ class PostController extends Controller
   
         $input = $request->all();
   
-        if ($images = $request->file('images')) {
-            $destinationPath = 'images/';
-            $profileImage = date('YmdHis') . "." . $images->getClientOriginalExtension();
-            $images->move($destinationPath, $profileImage);
-            $input['images'] = "$profileImage";
+        if ($request->hasFile('foto')) {
+            $request->file('foto')->move('fotopost/', $request->file('foto')->getClientOriginalName());
+            $post->foto = $request->file('foto')->getClientOriginalName();
+            $post->save();
         }else{
             unset($input['image']);
         }

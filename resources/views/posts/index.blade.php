@@ -1,7 +1,7 @@
 @extends('layouts.posts')
 
 @section('content')
-<div class="container">
+<div class="container ">
     <div class="row justify-content-center">
     <div class="col-12">
         <br>
@@ -27,7 +27,6 @@
                             <td>{{ date('Y-m-d', strtotime($post->published_at)) }}</td>
                             <td>{{ date('Y-m-d', strtotime($post->created_at)) }}</td>
                             <td>
-                            <a href="posts/{{$post->id}}" class="btn btn-primary">Show</a>
                             <a href="posts/{{$post->id}}/edit" class="btn btn-primary">Edit</a>
                             <form action="posts/{{$post->id}}" method="post" class="d-inline">
                                 {{ csrf_field() }}

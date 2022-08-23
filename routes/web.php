@@ -114,12 +114,13 @@ Route::get('/posts', [App\Http\Controllers\PostController::class, 'index'])->nam
 Route::get('posts/create', [App\Http\Controllers\PostController::class, 'create']);
 Route::post('poststore', [App\Http\Controllers\PostController::class, 'store']);
 Route::get('posts/{post}/edit', [App\Http\Controllers\PostController::class, 'edit']);
-Route::get('posts/{post}', [App\Http\Controllers\PostController::class, 'show']);
-Route::put('posts/{post}', [App\Http\Controllers\PostController::class, 'update']);
+Route::get('showposts/{post}', [App\Http\Controllers\PostController::class, 'show']);
+Route::put('updateposts/{post}', [App\Http\Controllers\PostController::class, 'update']);
 Route::delete('posts/{post}', [App\Http\Controllers\PostController::class, 'destroy']);
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/show/{post}', [App\Http\Controllers\HomeController::class, 'show'])->name('show');
 
 
