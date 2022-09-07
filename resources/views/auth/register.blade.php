@@ -78,9 +78,14 @@
                         <label for="password_confirmation" class="control-label sr-only">Konfirmasi Password</label>
                         <input type="password" name="password_confirmation" class="form-control" required placeholder="{{ trans('global.login_password_confirmation') }}">
                     </div>
-
+                    <div class="form-group clearfix">
+                        <label class="fancy-checkbox element-left">
+                                 <a href="{{ route('login') }}">Kembali</a>   
+                        </label>
+                    </div>
                     <button type="submit" class="btn bg-blue-2 text-white btn-round btn-block">Daftar</button>
                 </form>
+                
                 <div class="pattern">                   
                     <span class="blue"></span>
                 </div>
