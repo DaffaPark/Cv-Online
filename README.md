@@ -32,7 +32,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="#question-CompuIves" title="Answering Questions">Hey Hey Not Bad😎</a>
+    <a href="#question-CompuIves" title="Answering Questions">Project Manager😎</a>
     <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3ACompuIves">
     <a href="https://github.com/codesandbox/codesandbox-client/commits?author=CompuIves"></td>
     <td align="center">
@@ -44,7 +44,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=donavon" title="Code">💻</a>
+    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=donavon" title="Code">Front End</a>
     </td>
     <td align="center">
     <a href="https://www.instagram.com/fazri70/">
@@ -55,7 +55,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=vueu" title="Code">💻</a>
+    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=vueu" title="Code">UI/UX Designer</a>
     </td>
     <td align="center">
     <a href="https://www.instagram.com/sarahaulia.z/">
@@ -66,7 +66,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=bengummer" title="Code">💻</a>
+    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=bengummer" title="Code">Back End</a>
     </td>
     <td align="center">
     <a href="https://www.instagram.com/vviviaaaa/?hl=id">
@@ -76,7 +76,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=faceyspacey" title="Code">💻</a> <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Afaceyspacey" title="Bug reports">🐛</a>
+    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=faceyspacey" title="Code">Front End</a> <a href="https://github.com/codesandbox/codesandbox-client/issues?q=author%3Afaceyspacey" title="Bug reports">🐛</a>
     </td>
     <td align="center">
     <a href="https://instagram.com/novalds_?igshid=YmMyMTA2M2Y=">
@@ -87,7 +87,7 @@ Thanks goes to these wonderful people
     </sub>
     </a>
     <br />
-    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=viankakrisna" title="Code">💻</a></td>
+    <a href="https://github.com/codesandbox/codesandbox-client/commits?author=viankakrisna" title="Code">UI/UX Designer</a></td>
   </tr>
   </table>
 
