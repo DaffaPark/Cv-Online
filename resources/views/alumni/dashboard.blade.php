@@ -30,9 +30,6 @@
       <th scope="col">Jurusan</th>
       <th scope="col">Angkatan</th>
       <th scope="col">Status</th>
-      <th></th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
