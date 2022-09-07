@@ -82,6 +82,36 @@
     <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Social Contact</label>
+    <input type="text" name="social" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="LinkedIn : daffapark_">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Pekerjaan</label>
+    <input type="text" name="jobtitle" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Tentang Diri Anda</label>
+    <textarea name="datadiri" id="datadiri" class="form-control" cols="15" rows="3"></textarea>
+  </div>
+  
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Keahlian</label>
+    <textarea type="text" name="keahlian" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Riwayat Pendidikan</label>
+    <textarea type="text" name="riwayat" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Riwayat Berorganisasi</label>
+    <textarea type="text" name="organisasi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+
   <div class="form-group">
     <label for="exampleFormControlSelect1">Status</label>
     <select class="form-control"  name="status"  id="exampleFormControlSelect1">
@@ -91,9 +121,10 @@
     </select>
   </div>
 
+
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Pengalaman Bekerja</label>
-    <input type="text" name="pengalamankerja" placeholder="apabila belum bekerja silahkan lewati" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <textarea name="pengalamankerja" id="akademik" class="form-control" cols="15" rows="3"></textarea>
   </div>
 
   <div class="mb-3">
@@ -102,7 +133,7 @@
   </div>
 
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Apakah jurusan sudah sesuai dengan jurusan kompetensi?</label>
+    <label for="exampleFormControlSelect1">Apakah pekerjaan anda saat ini sudah sesuai dengan jurusan kompetensi?</label>
     <select class="form-control"  name="sesuai"  id="exampleFormControlSelect1">
     <option value="iya">Iya</option>
     <option value="tidak">Tidak</option>
@@ -123,6 +154,8 @@
     <option value="diatas_2juta">Diatas 2 juta</option>
     </select>
   </div>
+
+  
 
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

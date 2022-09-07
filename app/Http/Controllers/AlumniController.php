@@ -26,12 +26,19 @@ class AlumniController extends Controller
         $alumni->alamat = $request->alamat;
         $alumni->notelp = $request->notelp;
         $alumni->email = $request->email;
+        $alumni->social = $request->social;
+        $alumni->jobtitle = $request->jobtitle;
+        $alumni->datadiri = $request->datadiri;
+        $alumni->keahlian = $request->keahlian;
+        $alumni->riwayat = $request->riwayat;
+        $alumni->organisasi = $request->organisasi;
         $alumni->status = $request->status;
         $alumni->pengalamankerja = $request->pengalamankerja;
         $alumni->alamatkerja = $request->alamatkerja;
         $alumni->sesuai = $request->sesuai;
         $alumni->jabatan = $request->jabatan;
         $alumni->pendapatan = $request->pendapatan;
+        
         $alumni->save();
 
         return back();

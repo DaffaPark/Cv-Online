@@ -109,6 +109,15 @@
                                         </div>
                                         <br>
                                         <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Social Contact</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->social }}">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
                                          <div class="col-md-6">
                                             <label for="exampleFormControlSelect1">Status</label>
                                         </div>
@@ -118,6 +127,36 @@
                                             <option value="kerja">kerja</option>
                                             <option value="kuliah">Kuliah</option>
                                             </select>
+                                        </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Tentang Diri Anda</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="datadiri" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->datadiri }}">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Pekerjaan</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="jobtitle" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->jobtitle }}">
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Keahlian</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="keahlian" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="{{ $alumni->keahlian }}">
+                                            </div>
+                                        </div>
+                                        
                                         </div>
                                     </div>
                                 <br>
