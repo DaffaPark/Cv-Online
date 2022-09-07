@@ -376,7 +376,7 @@ section:last-child {
 		
 		<div id="name">
 			<h1 class="quickFade delayTwo">{{ $data->name }}</h1>
-			<h2 class="quickFade delayThree">Job Title</h2>
+			<h2 class="quickFade delayThree">Programmer</h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
