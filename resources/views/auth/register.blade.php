@@ -38,7 +38,7 @@
                     <p class="text-center" style="font-size: 12px;">Silahkan Daftarkan Diri Anda.</p>
 
                     <div class="form-group">
-                        <label for="name" class="control-label sr-only">name</label>
+                        <label for="name" class="control-label sr-only">Nama</label>
                         <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                     <input type="text" name="name" class="form-control" required autofocus placeholder="{{ trans('global.user_name') }}" value="{{ old('name', null) }}">
                     @if($errors->has('name'))
@@ -58,7 +58,7 @@
                     </div>
                     <div class="form-group">
                         <label for="nisnipd" class="control-label sr-only">Nis & Nipd</label>
-                        <input type="text" name="nisnipd" class="form-control" required placeholder="NISN & NIS" value="{{ old('nisnipd', null) }}">
+                        <input type="text" name="nisnipd" class="form-control" required placeholder="NISN & NIS (1234/1234567890)" value="{{ old('nisnipd', null) }}">
                     @if($errors->has('nisnipd'))
                         <p class="help-block">
                             {{ $errors->first('nisnipd') }}

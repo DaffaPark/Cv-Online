@@ -48,7 +48,7 @@ return [
     'year'                                 => 'Year',
     'yes'                                  => 'Yes',
     'youAreLoggedIn'                       => 'You are logged in!',
-    'yourAccountNeedsAdminApproval'        => 'Akun anda perlu persetujuan administrator untuk bisa login',
+    'yourAccountNeedsAdminApproval'        => 'Akun anda berhasil terdaftar tapi perlu persetujuan administrator dulu agar bisa login',
     'submit'                               => 'Submit',
     'datatables'                           => [
         'copy'          => 'Copy',

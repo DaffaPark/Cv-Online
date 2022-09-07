@@ -63,11 +63,9 @@
                     </div>
                     <div class="form-group clearfix">
                         <label class="fancy-checkbox element-left">
-                            <input type="checkbox" name="remember">
-                            <span>Ingat saya</span>
-                            <a href="{{ route('register') }}">
-            Daftar
-        </a>
+                            <span>
+                                Belum punya akun? <a href="{{ route('register') }}">Daftar disini</a>
+                            </span>
                         </label>
                     </div>
                     <button type="submit" class="btn bg-blue-2 text-white btn-round btn-block">MASUK</button>
