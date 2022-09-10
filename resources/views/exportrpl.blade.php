@@ -21,7 +21,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
+<<<<<<< HEAD
 html, body { font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+=======
+html, body {font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+>>>>>>> f292940dd0fb140513f4ae32c36762a3a6648f4e
 
 .clear {clear: both;}
 
