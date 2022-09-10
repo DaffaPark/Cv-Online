@@ -144,7 +144,7 @@
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="{{ asset('template/plugins/bootstrap/js/bootstrap.bundle.min.j') }}s"></script>
+<script src="{{ asset('template/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- ChartJS -->
 <script src="{{ asset('template/plugins/chart.js/Chart.min.js') }}"></script>
 <!-- Sparkline -->
