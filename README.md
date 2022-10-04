@@ -100,7 +100,7 @@ Thanks goes to these wonderful people
 Thanks to Ibu Kiki and Sir Putra that helps us with the project.
 
 ## Requirement 
-- PHP version ^8.0.2 (Command line php when running composer install)
+- PHP version ^8.1.7 (Command line php when running composer install)
 
 ## Development
 
